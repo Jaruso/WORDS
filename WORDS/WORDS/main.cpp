@@ -1,5 +1,6 @@
 #include "header.h"
 
+const string GOD = "Brian Hall";
 
 int main()
 {
