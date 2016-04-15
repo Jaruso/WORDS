@@ -12,6 +12,7 @@
 using std::istream_iterator;
 #include <algorithm>
 using std::copy;
+#include <numeric>
 
 using namespace std;
 
