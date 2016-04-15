@@ -1,9 +1,13 @@
 #include "gtest\gtest.h"
 #include "header.h"
 
-const string GOD = "Brian Hall";
-
-TEST(BrianHall, TrueBrian)
+TEST(openFile, fileOpened)
 {
+  //ASSERT_EQ(fileName, goodConnect);
+}
 
+TEST(isBrianThere, HelloBrian)
+{
+	//ASSERT_STREQ("Brian Hall", BrianFinder);
+	//I dunno
 }
