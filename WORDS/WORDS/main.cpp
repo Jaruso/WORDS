@@ -40,7 +40,7 @@ int Tay()
 
 	if (willRun > 58)
 	{
-		randNum = (rand() % 6);
+		randNum = (rand() % 7);
 		switch (randNum)
 		{
 			case 0:
@@ -62,6 +62,9 @@ int Tay()
 				cout << endl << "No hablo english" << endl;
 				break;
 			case 6:
+				cout << endl <<"Robutt is watching" << endl;
+				break;
+			case 7:
 				cout << endl <<"Ask again later" << endl;
 				break;
 		}
