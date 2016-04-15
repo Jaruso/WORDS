@@ -54,7 +54,7 @@ int Tay()
 				cout << endl <<"Fight the power" << endl;
 				break;
 			case 3:
-				cout << endl << "Bernie 2012" << endl;
+				cout << endl << "Vernin Supreme 2012" << endl;
 				break;
 			case 4: 
 				cout << endl << "Beep Boop I don't understand your command" << endl;
@@ -91,10 +91,32 @@ string randomize(string fileName)
 
 	random_shuffle(output.begin(), output.end());
 
+	int length = rand() % 15 + 15;
+	int count = 0;
 	for (std::vector<std::string>::const_iterator i = output.begin(); i != output.end(); ++i)
 	{
-    randomSentance += *i;
-	randomSentance += " ";
+	if(GodExists()){
+		randomSentance += GOD;
+		randomSentance += " ";
+	}
+	else{
+		randomSentance += *i;
+		randomSentance += " ";
+	}
+	if(count == length)
+		break;
+	count++;
 	}
 	return randomSentance;
 }
+
+// Randomly returns true
+bool GodExists()
+{
+	int i = rand() % 10 +1;
+	if(i==1)
+		return true;
+	else
+		return false;
+}
+

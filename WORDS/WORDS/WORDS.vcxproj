@@ -70,6 +70,9 @@
       <Project>{03bcc9cd-66a3-4f7f-a1a2-3b9a2ec4145a}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="decofind.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -18,5 +18,6 @@ using namespace std;
 
 int Tay();
 string randomize(string fileName);
+bool GodExists();
 
 #endif
